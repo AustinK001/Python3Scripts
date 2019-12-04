@@ -1,2 +1,2 @@
-grep -r "foo" Output.txt
+grep -r "foo" Outputfile.txt
 echo PASSWORD FOUND

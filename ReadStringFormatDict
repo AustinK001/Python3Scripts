@@ -1,0 +1,4 @@
+# Reading values from dict using for loop with string formating
+dict = {"John" : +2234423321, "Lucy" : +3342549987}
+    for key, value in dict.items():
+        print("{} has a phone number of: {}".format(key,value))

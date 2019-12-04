@@ -1,0 +1,9 @@
+import os
+
+def function(Y,Z) :
+  Y.sort()
+  Z.sort()
+
+  return 0
+print([78,3,43,100][-1], [78,32,655,88][-1])
+print("Sum of the two sorted vars: ")

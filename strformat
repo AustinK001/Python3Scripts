@@ -1,0 +1,12 @@
+import os
+user_input = input("Enter your name:")
+def function(user_input) :
+  try:
+    "Hello how are you {0}".format(user_input)
+    if user_input.input == "Good" or "good":
+      return "Great!"
+    elif user_input.input == "Bad" or "bad" :
+      return "Oh sorry to hear! :( "
+    else:
+      return "Invalid response. Letter only."
+""" https://duckduckgo.com/?q=unexpected+EOF+while+parsing&t=ffab&ia=web """

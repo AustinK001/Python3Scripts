@@ -1,0 +1,27 @@
+If you followed the Anaconda Python Distribution instructions to install a Python 3 environment, you can skip this section. It is about creating a Python 3 environment when your default environment is Python 2.
+
+In the first stages of our move to Python 3, some important tools we use will still be in Python 2. To facilitate the change, you may find it useful to have Python 3 in a separate environment. If you are doing EOSC 511 in 2015 or later you will need a Python 3 environment. This section explains how to set one up assuming you already have conda and anaconda installed.
+
+At the command line create your new environment, here called “mypython3” but you can call it what you wish:
+
+conda create -n mypython3 python=3
+
+To activate the environment:
+
+source activate mypython3
+
+To get all the goodies (e.g. Jupyter Notebook, NumPy, matplotlib) you can install Anaconda, which will auto-magically use Python 3.
+
+conda install anaconda
+
+and then our additional install, netcdf4-python
+
+conda install netcdf4
+
+Now you have set-up your Python 3 environment. To start it in a new terminal
+
+source activate mypython3
+
+When you are using that environment your prompt will change and will include (mypython3). To return to using your “base” environment you can de-activate the conda environment with:
+
+source deactivate

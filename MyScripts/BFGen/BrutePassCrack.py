@@ -12,8 +12,7 @@ for i in range (0 , trys) :
     A = random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list)
     B = "".join(A)
     f = open("Outputfile.txt", "a")
-
-    print("Try:",i , B, file=f)
-
+    print("Try:",i , B, "Out of:", trys, file=f)
+    print("Try:",i ,"Out of:", trys , B)
     f.close()
     i += 1

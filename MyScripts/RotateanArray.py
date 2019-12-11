@@ -15,9 +15,5 @@ print(list_2)
 c = 2
 list_3 = [1,2,3]
 list_3 = (list_3[len(list_2) - c:len(list_3)]+ list_3[0:len(list_3) - c])
+print(list_3)
 # list_3[3 - 2:len] + list_3[0:len-2] Adding indexs together to join segments of the array
-# state the array at the index of
-# the array's length
-# subtracted by the starting var
-# range through the length of the array
-# then Add a
